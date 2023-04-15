@@ -1,0 +1,73 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+.container{
+    background-color: #e5e5fd;
+    min-height: 100vh;
+   border:10px solid #1d1e4c;
+}
+.content{
+    max-width:900px;
+    margin:0 auto;
+    /* To make content in Center */
+}
+.image-section, img{
+    width:350px;
+    height:320px;
+}
+.top-section h1{     /* Prithivi Narayan Shah*/
+    font-size: 40px;
+    font-weight: bold;
+    color:#1d1e4c;
+    text-transform: uppercase;  /* to make all text uppercase*/
+}
+.top-section{
+    display:flex; /*to make Photo and name side by side*/
+    justify-content: space-between;   /* To give gap between photo and text*/
+    margin-top:100px;
+    align-items:flex-end;      /* To place name at the bottom*/
+}
+.image-containeer{
+     border-radius:50%;   /*To make image oval */
+    overflow: hidden;
+}
+.top-section h4{
+    text-align:end;  /* to place date at end of name in down*/
+    font-size: 30px;
+}
+.about{
+    margin-top: 50px;
+}
+.about h2{
+    font-size:70px;
+    font-weight: 400;
+    margin-bottom: 20px;
+
+} .about p{
+    font-size:20px;
+    line-height: 30px;
+    letter-spacing:1.2px;
+    text-align: justify;
+}
+.biography ul{
+    line-height:30px;
+    font-size:20px ;
+    color:darkolivegreen;
+    letter-spacing: 1.2px;
+}
+.biography h4{
+    font-size:30px;
+    color:cadetblue;
+    margin-bottom: 10px;
+    margin-top:10px;
+}
+footer{
+   text-align: end;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
